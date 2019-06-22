@@ -1,0 +1,17 @@
+.footer {
+    @extend .section-wrapper;
+    background-color: $granite-gray;
+    display: table;
+    height: 200px;
+    text-align: center;
+  
+    &footer__logo-wrapper {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+    &__logo {
+      height: auto;
+      width: 150px;
+    }
+  }

@@ -1,0 +1,62 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// White Color
+/// @type Color
+$white: #FFF;
+
+/// Snow Color
+/// @type Color
+$snow: #FAFAFA;
+
+/// Quick Silver Color
+/// @type Color
+$quick-silver: #A0A0A0;
+
+/// jean-bean Color
+/// @type Color
+$jean-bean: #E56353;
+
+/// salmon Color
+/// @type Color
+$salmon: #E97F72;
+
+/// pastel-pink Color
+/// @type Color
+$pastel-pink: #F0A9A1;
+
+/// granite-gray Color
+/// @type Color
+$granite-gray: #686963;
+
+/// taupe-gray Color
+/// @type Color
+$taupe-gray: #91918D;
+
+/// gray Color
+/// @type Color
+$gray: #BABAB8;
+
+// fonts
+$raleway: 'Raleway', sans-serif;
+$raleway-extra-light: 200;
+$raleway-regular: 400;
+$raleway-bold: 700;
+
+$font-size-xx-large: 100px;
+$font-size-x-large: 70px;
+$font-size-large: 50px;
+$font-size-medium: 18px;
+
+$primary-font: $raleway;
+$primary-font-extra-light: $raleway-extra-light;
+$primary-font-regular: $raleway-regular;
+$primary-font-bold: $raleway-bold;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
